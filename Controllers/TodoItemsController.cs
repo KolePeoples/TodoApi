@@ -29,6 +29,7 @@ namespace TodoApi.Controllers
             return await _context.TodoItems.ToListAsync();
         }
 
+
         #region snippet_GetByID
         // GET: api/TodoItems/5
         [HttpGet("{id}")]
